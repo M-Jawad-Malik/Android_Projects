@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.resortingapp.PlaceDeatil">
+    <com.github.florent37.arclayout.ArcLayout
+        android:id="@+id/arc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:arc_cropDirection="cropOutside"
+        app:arc_height="65dp"
+        app:arc_position="bottom"
+        android:layout_marginBottom="80dp"
+        android:elevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradiant_bg">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/nav_drawer_background"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gradiant_bg" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/prof_img"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:src="@drawable/nav_drawer_background"
+                app:civ_border_color="#FFF"
+                app:civ_border_width="2dp" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/prof_img_btn"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="230dp"
+                android:src="@drawable/ic_camera"
+/>
+        </RelativeLayout>
+
+    </com.github.florent37.arclayout.ArcLayout>
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/arc_layout"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Info"
+            android:textSize="20dp"
+            android:fontFamily="@font/cairo"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            />
+        <ImageView
+            android:id="@+id/mapbtn"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:backgroundTint="#ffffff"
+            android:layout_marginLeft="160dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_map"
+            />
+
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout1"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/airquality"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/cairo"
+                    android:layout_height="wrap_content"
+                    android:hint="Air Quality Index" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout2"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout1"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/catur"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/cairo"
+                    android:layout_height="wrap_content"
+                    android:hint="Category in Urdu" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout3"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout2"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/caten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:hint="Category in English" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout16"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout2"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/catar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="غظضذخثتشرقصجفعسنملةىكيطئءؤحزوهدباأ"
+                    android:hint="Category in Arabic" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout4"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout16"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/desur"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/cairo"
+                    android:layout_height="wrap_content"
+                    android:hint="Urdu Description" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout5"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout4"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/desen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="abcdefghijklmnopqrstuvwxyz"
+                    android:hint="English Description" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout17"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout4"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/desar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="غظضذخثتشرقصجفعسنملةىكيطئءؤحزوهدباأ"
+                    android:hint="Arabic Description" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout7"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout17"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nmur"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/cairo"
+                    android:layout_height="wrap_content"
+                    android:hint="Name in Urdu" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout8"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout7"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nmen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:hint="Name in English" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout18"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout7"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nmar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="غظضذخثتشرقصجفعسنملةىكيطئءؤحزوهدباأ"
+                    android:hint="Name in Arabic" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout9"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout18"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/recage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:inputType="number"
+                    android:fontFamily="@font/cairo"
+                    android:hint="Recommended Age" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout10"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout9"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/recsesn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:fontFamily="@font/cairo"
+                     android:hint="Recommended Season" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout11"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout10"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/rectime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:inputType="number"
+                    android:fontFamily="@font/cairo"
+                    android:hint="Recommended Time" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout12"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout11"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/recomkey"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/cairo"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:hint="Keywords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout13"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout12"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/entrncfee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:inputType="number"
+                    android:fontFamily="@font/cairo"
+                    android:hint="Entrance Fee" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout14"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout13"
+                android:layout_margin="10dp"
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/food"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:inputType="number"
+                    android:fontFamily="@font/cairo"
+                    android:hint="Food Cost" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textlayout15"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textlayout14"
+                android:layout_margin="10dp"
+
+                app:boxStrokeColor="@color/blue_logo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/transpot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:fontFamily="@font/cairo"
+                    android:hint="Tranportation Cost" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <FrameLayout
+                android:id="@+id/btn_add_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/next_2"
+                android:padding="5dp">
+                <TextView
+                    android:id="@+id/saveplc_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="@font/cairo"
+                    android:backgroundTint="@color/next_2"
+                    android:background="@color/next_2"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:text="Save Place Details"
+                    android:textColor="#ffffff" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+   </RelativeLayout>

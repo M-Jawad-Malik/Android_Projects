@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "746943303150",
+    "firebase_url": "https://iot-based-monitoring-system-11-default-rtdb.firebaseio.com",
+    "project_id": "iot-based-monitoring-system-11",
+    "storage_bucket": "iot-based-monitoring-system-11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:746943303150:android:0a993ab1c6f8684cd7d2ff",
+        "android_client_info": {
+          "package_name": "com.example.shockrecorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "746943303150-1v6puhe2j9f4e0dous90rfjhqu9nu4e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shockrecorder",
+            "certificate_hash": "6baba8af88c5351cb1126325ced3c44c7ce7da66"
+          }
+        },
+        {
+          "client_id": "746943303150-8o6e08a93cdutgp6deqqsbj2bd3eko9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX27Ob5pdlmoBxs0xTVcoMDh8O62DDFP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "746943303150-8o6e08a93cdutgp6deqqsbj2bd3eko9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

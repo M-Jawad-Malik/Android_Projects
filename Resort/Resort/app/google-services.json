@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "643401621230",
+    "firebase_url": "https://resortingapp-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "resortingapp",
+    "storage_bucket": "resortingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643401621230:android:21e571427062469eec5dff",
+        "android_client_info": {
+          "package_name": "com.example.resortingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643401621230-t786ch5q7ej9hrmhcfdesdljdr4a43ob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resortingapp",
+            "certificate_hash": "294bc646f437b96b1702622303dce653d7d0efe0"
+          }
+        },
+        {
+          "client_id": "643401621230-l9lllog1kv3igg32h67ees5v3q3623sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrKQNL2lh8DaA-rSujeiwObEFpgo1Bgek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643401621230-l9lllog1kv3igg32h67ees5v3q3623sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

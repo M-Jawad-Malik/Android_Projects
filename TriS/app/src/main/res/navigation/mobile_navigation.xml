@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/menu_home">
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.example.tris.ads.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menu_my_ads"
+        android:name="com.example.tris.ads.fragments.MyAdsFragment"
+        android:label="fragment_my_ads"
+        tools:layout="@layout/fragment_my_ads" />
+    <fragment
+        android:id="@+id/menu_favorites"
+        android:name="com.example.tris.ads.fragments.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/menu_new_ads"
+        android:name="com.example.tris.ads.fragments.NewAdsFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/adsregistration" />
+    <fragment
+        android:id="@+id/menu_profile"
+        android:name="com.example.tris.Ecommerce.view.User"
+        android:label="fragment_profile"
+        tools:layout="@layout/adsregistration" />
+</navigation>

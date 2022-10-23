@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.resortingapp.FiltresActivity">
+
+    <include
+        android:id="@+id/include9"
+        layout="@layout/toolbar_filtres"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/btn_filtrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include9">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Interest"
+                android:fontFamily="@font/cairo"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <android.widget.Button
+                android:id="@+id/btn_categoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:drawableEnd="@drawable/ic_seta_filtro"
+                android:hint="All Interests"
+                android:fontFamily="@font/cairo"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Location"
+                android:fontFamily="@font/cairo"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/btn_categoria" />
+
+            <android.widget.Button
+                android:id="@+id/btn_estados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:drawableEnd="@drawable/ic_seta_filtro"
+                android:hint="All Province"
+                android:fontFamily="@font/cairo"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"
+                app:layout_constraintEnd_toEndOf="@+id/btn_categoria"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+            <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Select City"
+            android:textColor="@color/black"
+                android:fontFamily="@font/cairo"
+            app:layout_constraintStart_toStartOf="@+id/textView8"
+            app:layout_constraintTop_toBottomOf="@+id/btn_estados" />
+            <android.widget.Button
+                android:id="@+id/btn_regioes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:drawableEnd="@drawable/ic_seta_filtro"
+                android:hint="All Cities"
+                android:fontFamily="@font/cairo"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"
+                android:visibility="gone"
+                tools:visibility="visible"
+                app:layout_constraintEnd_toEndOf="@+id/btn_categoria"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Season"
+                android:fontFamily="@font/cairo"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/btn_regioes" />
+            <android.widget.Button
+                android:id="@+id/btn_season"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bg_edt"
+                android:drawableEnd="@drawable/ic_seta_filtro"
+                android:hint="All Season"
+                android:fontFamily="@font/cairo"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@android:color/darker_gray"
+
+                tools:visibility="visible"
+                app:layout_constraintEnd_toEndOf="@+id/btn_categoria"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <android.widget.Button
+        android:id="@+id/btn_filtrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/next_2"
+        android:padding="20dp"
+        android:text="Apply"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="@font/cairo"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/next_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

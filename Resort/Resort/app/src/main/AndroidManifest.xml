@@ -1,0 +1,99 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools">
+<uses-sdk tools:overrideLibrary="com.bitvale.switcher" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.CALL_PHONE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.CAMERA" />
+<permission
+    android:name="com.example.barcodelibrary.permission.MAPS_RECEIVE"
+    android:protectionLevel="signature" />
+<uses-permission android:name="com.example.barcodelibrary.permission.MAPS_RECEIVE" />
+<application
+    android:requestLegacyExternalStorage="true"
+    android:allowBackup="true"
+    android:icon="@drawable/ic_resorting1"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/ic_logo_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    android:usesCleartextTraffic="true"
+    tools:node="replace">
+    <activity
+        android:name="com.example.resortingapp.MainActivity"
+        android:exported="true"/>
+    <activity android:name="com.example.resortingapp.AddTourActivity"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustNothing"
+        android:exported="true"
+
+       />
+    <activity
+        android:name="com.example.resortingapp.DetailedActivity"
+        android:screenOrientation="portrait"
+        android:exported="true"></activity>
+    <activity
+        android:name="com.example.resortingapp.PlaceInfoActivity"
+        android:screenOrientation="portrait"
+        android:exported="true"></activity>
+    <activity
+        android:name="com.example.resortingapp.PlacesActivity"
+        android:screenOrientation="portrait"
+        android:exported="true"></activity>
+    <activity
+        android:name="com.example.resortingapp.tourguiderreg"
+        android:parentActivityName="com.example.resortingapp.MainActivity"
+        android:screenOrientation="portrait"
+        android:exported="true">
+    </activity>
+    <activity
+        android:name="com.example.resortingapp.RegionActivity"
+        android:exported="true" />
+    <activity
+        android:name="com.example.resortingapp.PlaceDeatil"
+        android:exported="true"/>
+    <activity
+        android:name="com.example.resortingapp.GuiderProfileDetailActivity"
+        android:exported="true"
+        />
+    <activity
+        android:name="com.example.resortingapp.FiltresActivity"
+        android:exported="true"
+        android:screenOrientation="portrait"
+        />
+    <activity
+        android:name="com.example.resortingapp.InterestActivity"
+        android:exported="true"
+        />
+    <activity
+        android:name="com.example.resortingapp.SeasonActivity"
+        android:exported="true"
+        />
+    <activity android:name="com.example.resortingapp.Onboarding.OnboardingActivity"
+        android:exported="true" />
+
+    <activity
+        android:name="com.example.resortingapp.ProvinceActivity"
+        android:exported="true" />
+    <activity android:name="com.example.resortingapp.OverviewActivity"
+        android:exported="true"/>
+    <activity
+        android:name="com.example.resortingapp.SplashScreenActivity"
+        android:screenOrientation="portrait"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="@string/google_maps_key"
+        tools:node="merge"
+        />
+</application>
+</manifest>
+

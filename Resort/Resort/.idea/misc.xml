@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jawad/.gradle/caches/transforms-3/f4f98782ac1fd28edd39bdc51f633ca9/transformed/appcompat-1.3.1/res/drawable/abc_item_background_holo_dark.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable-xxhdpi/button_border_radius.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable-xxhdpi/circle.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/alert_corners.xml" value="0.1705" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.1705" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/bg_btn.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/bg_edt.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/button_profile_clear_save.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/button_radius.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/circle_shape.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/corners.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/facebook_btn_shape.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/gmail_btn_shape.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/gradiant_bg.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_add.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_addplace.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_addtour.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_calendar.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_chat_comment_gray.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_circled_location.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_help_feedback.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_jordan.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_keyboard_arrow_down.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_location.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_logout.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_menu_manage.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_menu_send.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_menu_share.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_more_information.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_msg.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_outlined_mail.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_outlined_telephone.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_phone.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_seta_filtro.xml" value="0.2005" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_share.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_star_border.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_t2.xml" value="0.1705" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_tour.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_tour1.xml" value="0.1705" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_tour3.xml" value="0.1705" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_tour5.xml" value="0.1705" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_united_kingdom.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_wallet.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/ic_website.xml" value="0.1305" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_button_1.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_button_2.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_button_3.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_button_4.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_image_1.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_image_2.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_image_3.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_image_4.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_waves_1.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_waves_2.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_waves_3.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/drawable/onboarding_activity_ic_waves_4.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout-land/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/acitivity_filters.xml" value="0.22" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_add_tour.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_cost_item.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_detailed.xml" value="0.21" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_guider_profile_detail.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_interest.xml" value="0.10727969348659004" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_main_drawer.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_overview.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_place_deatil.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_place_info.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_places.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_province.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_regioes.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_season.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/activity_splash_screen.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/airquality_popup.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/back_view_recommendations.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/clarification_dialog.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/comments_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/cost_popup.xml" value="0.22" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/custom_rating_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/divisor.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/estado_item.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/fragment_guider_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/fragment_helpfeedback.xml" value="0.33" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/fragment_profile.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/fragment_recommended_tour.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/fragment_top_rated_tour.xml" value="0.2" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/fragment_tour.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/guiderprofile.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/interest_item.xml" value="0.18" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/interests_cat.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/onboarding_1.xml" value="0.22" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/onboarding_2.xml" value="0.2410575427682737" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/onboarding_3.xml" value="0.25" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/onboarding_4.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/region_item.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/spinner.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/toolbar.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/toolbar_filtres.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/tour_item.xml" value="0.75" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/tourguiderreg.xml" value="0.21" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/layout/viewpager_item.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/menu/drawer_menu.xml" value="0.25" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/menu/tour_options.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/Downloads/Resort/Resort/app/src/main/res/menu/tour_options_admin.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

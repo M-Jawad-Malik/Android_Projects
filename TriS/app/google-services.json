@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "776418576158",
+    "project_id": "tris-771ac",
+    "storage_bucket": "tris-771ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776418576158:android:714230277585d32ff46b0f",
+        "android_client_info": {
+          "package_name": "com.example.tris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776418576158-6tge4dpa96el1vl5sb0skh5r6d88tvf4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tris",
+            "certificate_hash": "6baba8af88c5351cb1126325ced3c44c7ce7da66"
+          }
+        },
+        {
+          "client_id": "776418576158-7lbqtmhq2clsidq1l1irh6dlql5p5ii2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDskkyOLh7QI2V5DmKzRvbPVhaddEVjnmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776418576158-7lbqtmhq2clsidq1l1irh6dlql5p5ii2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

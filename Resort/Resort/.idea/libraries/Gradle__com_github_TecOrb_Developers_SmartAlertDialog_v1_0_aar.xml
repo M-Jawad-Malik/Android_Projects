@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.TecOrb-Developers:SmartAlertDialog:v1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/534b10f4d9abf4728e93012797d79d56/transformed/jetified-SmartAlertDialog-v1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/534b10f4d9abf4728e93012797d79d56/transformed/jetified-SmartAlertDialog-v1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/534b10f4d9abf4728e93012797d79d56/transformed/jetified-SmartAlertDialog-v1.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

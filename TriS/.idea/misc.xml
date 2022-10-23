@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/add.xml" value="0.104" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/add_off.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/add_on.xml" value="0.1925" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/arrow_right.xml" value="0.173" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/bg_overlay.xml" value="0.1645" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.173" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/category.xml" value="0.182" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/continue_background.xml" value="0.1945" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/edit_text_background.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/email.xml" value="0.103" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/favorite_like.xml" value="0.182" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/filter.xml" value="0.135" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/gradient_background_light_blue.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/gradient_home.xml" value="0.104" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/green_shape.xml" value="0.1645" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/home.xml" value="0.182" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/home_linear2_background.xml" value="0.1525" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/home_off.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/home_on.xml" value="0.173" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_announcement_off.xml" value="0.173" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_anuncio_off.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_anuncio_on.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_edit.xml" value="0.1715" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_email.xml" value="0.1895" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_favorito_off.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_favorito_on.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_favourite.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_home.xml" value="0.1895" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_home_off.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_home_on.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_house.xml" value="0.1895" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_telefone.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_user.xml" value="0.1895" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_user_off.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_user_on.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/ic_voltar.xml" value="0.1715" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/like_button_off.xml" value="0.1895" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/like_button_on.xml" value="0.1895" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/local_offer.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/menu_item_favorits.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/menu_item_home.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/menu_item_my_ads.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/menu_item_profile.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/person_outline.xml" value="0.143" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/drawable/shopping_bag.xml" value="0.182" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/acitivity_mainexpense.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_add_transaction.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_ads_details.xml" value="0.25" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_adshome.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_categories.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_complaints.xml" value="0.1484375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_dash_board.xml" value="0.22" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_form_ads.xml" value="0.22" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_home.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_home_page.xml" value="0.17" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_mainExpense.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_mainexpense.xml" value="0.22" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_signup.xml" value="0.16" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/activity_update_delete.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/adsitem.xml" value="0.5148936170212766" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/adsitem1.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/adsregistration.xml" value="0.18" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/all_categories_item.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/cart.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/cart_item.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/category_item.xml" value="0.23540315106580167" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/divisor.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/fragment_favories.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/fragment_favorites.xml" value="0.18" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/fragment_home.xml" value="0.22867737948084055" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/fragment_my_ads.xml" value="0.2" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/fragment_new_ads.xml" value="0.25" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/home.xml" value="0.21530249110320285" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/image_slider_layout_item.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.33" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/my_account.xml" value="0.1796875" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/my_orders_item.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/navigation_header.xml" value="0.175" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/newcustom_layout.xml" value="0.25" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/one_recycler_item.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/order_details.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/order_placing.xml" value="0.18" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/search_result.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/search_result_list.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/show_product.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/signin_signup.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/slider_layout_item.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/toolbar.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/tour_item.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/upload_images_layout.xml" value="0.2046875" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/layout/user.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/menu/bottom_navigation_items.xml" value="0.1" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/menu/dmenu.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/AndroidStudioProjects/TriS/app/src/main/res/menu/navigation_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

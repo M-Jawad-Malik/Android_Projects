@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Resorting App</string>
+    <string name="login_welcome">"خوش آمدید"</string>
+    <string name="login_description">"پاکستان میں نیویگیٹ کرنے اور نئی جگہیں دریافت کرنے کا بہترین طریقہ."</string>
+    <string name="login_continue">کے ساتھ جاری رکھیں :</string>
+
+    <string name="save_interests">محفوظ کریں۔</string>
+    <string name="clear_interests">صاف کریں</string>
+
+    <string name="save">آپ نے اپنی دلچسپیوں کو کامیابی سے محفوظ کر لیا ہے۔</string>
+
+    <string name="save_size_check">براہ کرم کم از کم ایک دلچسپی کا انتخاب کریں !!</string>
+    <string name="save_size_check2">بچانے سے پہلے ایک نیا/دوسری دلچسپی چنیں!!</string>
+
+
+    <string name="notification">اطلاع</string>
+    <string name="notification_on">اطلاع فعال ہے۔</string>
+    <string name="notification_off">اطلاع کو غیر فعال کر دیا گیا۔</string>
+
+    <string name="close">چھوڑنے کے لیے دوبارہ دبائیں۔ </string>
+    <string name="retry">دوبارہ کوشش کریں۔</string>
+    <string name="lost_internet">انٹرنیٹ کنکشن کھو گیا.</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+AIzaSyD_Ahw_FTM-Pc5OzRvXtilbcwoKTL9n1BQ</string>
+
+    <string name="facebook_application_id" translatable="false">423812995143662</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb423812995143662</string>
+    <string name="select_places">مقامات منتخب کریں:</string>
+    <!-- Strings for the (drawer_menu) titles -->
+    <string name="nav_profile">پروفائل</string>
+
+    <string name="nav_tour">ٹورز</string>
+    <string name="nav_upcoming_event">آنے والا واقعہ</string>
+    <string name="nav_help_feedback">مدد اور تاثرات</string>
+    <string name="nav_logout">لاگ آوٹ</string>
+    <string name="english">انگریزی</string>
+    <string name="arabic">عربی</string>
+    <string name="urdu">اردو</string>
+    <string name="lang">زبان</string>
+    <string name="desc">تفصیل</string>
+    <string name="title">عنوان</string>
+    <string name="JD">RS</string>
+    <string name="delete_tour">ٹور کو حذف کریں</string>
+    <string name="tour_overview">ٹور کا جائزہ</string>
+    <string name="title_english">عنوان انگریزی</string>
+    <string name="title_arabic">عربی کا عنوان</string>
+    <string name="title_urdu">اردو کا عنوان</string>
+    <string name="helpandfeedback">مدد اور تاثرات</string>
+    <string name="publish">شائع کریں۔</string>
+    <string name="create_tour">ٹور بنائیں</string>
+    <string name="toast_places">براہ کرم ٹور بنانے کے لیے کم از کم 3 مقامات کا انتخاب کریں۔</string>
+
+    <!-- Strings for the (ActionBarDrawerToggle) -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Strings for the(Detailed activity) -->
+    <string name="cold">"ٹھنڈا"</string>
+    <string name="perfect">"بہت اچھا"</string>
+    <string name="hot">"گرم"</string>
+    <string name="normal">"نارمل"</string>
+
+    <string name="bad_internet">برا</string>
+    <string name="good_internet">اچھا</string>
+    <string name="great_internet">زبردست</string>
+    <string name="okay_internet">ٹھیک ہے</string>
+
+    <string name="alert_rating_hint">"اس دورے کے بارے میں اپنا تجربہ شیئر کریں"</string>
+    <string name="alert_rating_post">پوسٹ کریں</string>
+    <string name="alert_rating_cancel">منسوخ کریں۔</string>
+    <string name="detailed_activity_description">تفصیل</string>
+    <string name="detailed_activity_information_about">کے بارے میں معلومات</string>
+    <string name="detailed_activity_cost">لاگت</string>
+    <string name="detailed_activity_temp">درجہ حرارت</string>
+    <string name="detailed_activity_air_quality">ہوا کا معیار</string>
+    <string name="detailed_activity_internet">Internet</string>
+    <string name="detailed_activity_recommendations_for">سفارشات</string>
+    <string name="detailed_activity_season">موسم</string>
+    <string name="detailed_activity_time">وقت</string>
+    <string name="detailed_activity_age">عمر</string>
+    <string name="detailed_activity_estimation">تخمینہ</string>
+    <string name="detailed_activity_location_for">مقام</string>
+    <string name="summer_season">موسم گرما</string>
+    <string name="winter_season">موسم سرما</string>
+    <string name="spring_season">موسم بہار</string>
+    <string name="autumn_season">موسم خزاں</string>
+    <string name="day_time">دن</string>
+    <string name="night_time">رات</string>
+    <string name="detailed_activity_title">ٹور کی تفصیلات</string>
+    <string name="reviews_comments_dialog">جائزے</string>
+    <string name="already_rated">آپ پہلے ہی اس ٹور کی درجہ بندی کر چکے ہیں!!</string>
+    <string name="interests">اپنی دلچسپیاں منتخب کریں:</string>
+    <string name="now">(ابھی)</string>
+    <string name="title_share">پاکستان میں سیاحت کے لیے ایک درخواست</string>
+    <string name="using">شئیر کریں:</string>
+    <string name="recommended">تجویز کردہ</string>
+    <string name="top_rated">سب سے اوپر ریٹیڈ</string>
+
+    <string name="emergency">ایمرجنسی:</string>
+    <string name="ministry_of_tourism">وزارت سیاحت:</string>
+    <string name="contact_us">ہم سے رابطہ کریں۔</string>
+
+    <string name="test_tour">آپ نے ابھی تک اپنی دلچسپیوں کا انتخاب نہیں کیا ہے۔</string>
+    <string name="overview_activity_title">ٹور کا جائزہ</string>
+
+    <string name="activities_cost">سرگرمیوں کی لاگت:</string>
+
+    <string name="weather">موسم کی معلومات</string>
+    <string name="max">ذیادہ سے ذیادہ  درجہ حرارت</string>
+    <string name="min">کم سے کم درجہ حرارت</string>
+    <string name="humidity">نمی</string>
+    <string name="wind">ہوا کی رفتار</string>
+
+    <string name="four_g">4G دستیاب ہے۔</string>
+    <string name="three_g">3G دستیاب ہے۔</string>
+    <string name="two_g">2G دستیاب ہے۔</string>
+    <string name="no_service">2G دستیاب ہے۔</string>
+
+    <string name="cost_popup_title">لاگت کی تفصیلات</string>
+    <string name="entrance_fees">داخلہ فیس</string>
+    <string name="food">کھانا</string>
+    <string name="transportation">نقل و حمل</string>
+    <string name="overnight_rate">رات بھر کی شرح</string>
+    <string name="cheap_cost">سستی قیمت</string>
+    <string name="average_cost">اوسط قیمت</string>
+    <string name="expensive_cost">مہنگی قیمت</string>
+    <string name="apply">درخواست دیں</string>
+
+    <!-- Clarification Dialog -->
+    <string name="clarification_dialog_title">وضاحت</string>
+    <string name="clarification_dialog_body">&#8226;  ٹرانسپورٹیشن<b> لاگت/دورانیہ کی ڈیفالٹ ویلیو </b>کا حساب اس شہر میں آپ کے موجودہ مقام سے بطور سٹارٹر پوائنٹ اور مطلوبہ جگہ سے اختتامی نقطہ کے طور پر لگایا گیا تھا۔\n\n&#8226; <b>تخمینہ وقت</b> کی ڈیفالٹ قدر کا حساب تمام مطلوبہ جگہ کی سرگرمیوں کے وقت اور نقل و حمل کے وقت کو شامل کرکے لگایا گیا تھا۔\n\n&#8226; <b>آپ (لاگت) کے ساتھ فجائیہ کے نشان پر کلک کرکے ہر جگہ کے تخمینی وقت اور لاگت دونوں کو اپنی مرضی کے مطابق بنا سکتے ہیں۔</b></string>
+    <string name="clarification_dialog_checkbox">یہ دوبارہ نہ دکھائیں۔</string>
+    <string name="sleep">رات بھر کا قیام</string>
+
+    <string name="places_toolbar_title">مقامات</string>
+
+    <string name="place_info_toolbar_title">جگہ کی معلومات</string>
+
+    <string name="image_description">تصویر</string>
+
+    <string name="Places">مقامات</string>
+
+    <string name="tab_hotels">ہوٹل</string>
+
+    <string name="tab_restaurants">ریستوراں</string>
+
+    <string name="place">جگہ</string>
+
+    <string name="information_about">کے بارے میں معلومات</string>
+
+    <string name="place_location">Unknown</string>
+
+    <string name="place_website">Unknown</string>
+
+    <string name="place_phone">Unknwon</string>
+
+    <string name="nearby">آس پاس</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tour_guider_reg">گائیڈر رجسٹریشن</string>
+    <string name="tourguider">ٹور گائیڈ</string>
+    <string name="Details">تفصیلات</string>
+    <string name="Conatct">رابطہ</string>
+    <string name="Language">زبان</string>
+    <string name="Links">لنکس</string>
+    <string name="Region">علاقہ</string>
+    <string name="Website_Link">ویب سائٹ کا لنک</string>
+    <string name="Facebook_Link">فیس بک لنک</string>
+    <string name="demo_content1">“Remember that happiness is a way\n of travel, not a destination.”</string>
+    <string name="demo_content2">“Travelling in the company of those\n we love is home in motion.“</string>
+    <string name="demo_content3">“A good traveler has no fixed plans \nand is not intent on arriving.“</string>
+    <string name="demo_content4">“A place is only as good \nas the people in it.“</string><string name="demo_title1">Lorem Ipsum</string>
+    <string name="demo_title2">Lorem Ipsum</string>
+    <string name="demo_title3">Lorem Ipsum</string>
+    <string name="demo_title4">Lorem Ipsum</string>
+    <string name="next">Next</string>
+</resources>

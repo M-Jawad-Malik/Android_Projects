@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <group android:checkableBehavior="single"
+        
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/nav_profile"
+            />
+        <item
+            android:id="@+id/nav_tour"
+            android:icon="@drawable/ic_tour"
+            android:title="@string/nav_tour" />
+
+        <item
+            android:id="@+id/nav_upcoming_event"
+            android:icon="@drawable/ic_calendar"
+            android:title="@string/nav_upcoming_event" />
+        <item
+            android:id="@+id/nav_guider"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/tour_guider_reg" />
+        <item
+            android:id="@+id/nav_help_feedback"
+            android:icon="@drawable/ic_help_feedback"
+            android:title="@string/helpandfeedback" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/nav_logout" />
+    </group>
+
+    <item
+        android:title="@string/lang"
+        android:id="@+id/language_group"
+
+        >
+        <menu
+           >
+            <item
+                android:id="@+id/english"
+                android:title="@string/english"
+                android:icon="@drawable/ic_united_kingdom"/>
+            <item
+                android:id="@+id/arabic"
+                android:title="@string/arabic"
+                android:icon="@drawable/ic_jordan"/>
+            <item
+                android:id="@+id/urdu"
+                android:title="@string/urdu"
+                android:icon="@drawable/ic_urdu"/>
+        </menu>
+    </item>
+
+</menu>
