@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".complaint"
+    android:backgroundTint="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/yellow700">
+        <TextView
+            android:id="@+id/txtFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Complaints"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tool"
+        android:layout_marginTop="40dp"
+        android:text="If you have any complaint regarding doctor or seller "
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/login_layout_padding_top"
+        android:layout_marginLeft="-5dp"
+        android:weightSum="1"
+        android:layout_below="@id/query">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilname"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Doctor or Clinic Name"
+                android:backgroundTint="@color/white"
+                android:inputType="text"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilmsg"
+            android:layout_width="340dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etmsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MESSAGE"
+                android:backgroundTint="@color/white"
+                android:inputType="text"
+                android:maxLines="1"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/login_button_margin"
+            android:layout_marginTop="@dimen/login_button_margin"
+            android:layout_marginRight="@dimen/login_button_margin"
+            android:backgroundTint="@color/yellow700"
+            android:text="Submit"
+            android:background="@drawable/rounded_button_background"
+            android:textColor="@color/dark_gray" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

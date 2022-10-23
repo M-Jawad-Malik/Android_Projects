@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_animais_de_estimacao.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_anuncio_off.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_anuncio_on.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_artigos_infantis.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_autos_e_pecas.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_baseline_privacy_tip_24.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_comercio_e_escritorio.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_eletronico_e_celulares.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_todas_as_categorias.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_user.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_vagas_de_emprego.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_voltar.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_adress.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_ads_details.xml" value="0.29329852045256743" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_categories.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_complaint.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_filtres.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_forget_password.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_form_ads.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_perfil.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_profile.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_signup.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_splash_screen.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/adsitem.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/category_item.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/divisor.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/doctorreg.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/estado_item.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/fragment_chats.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/fragment_contacts.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/fragment_favories.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/fragment_groups.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/slider_layout_item.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/toolbar.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/toolbar_filtres.xml" value="0.14130434782608695" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/menu/dmenu.xml" value="0.17552083333333332" />
+        <entry key="..\:/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/menu/options_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/jawad/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_dropdown_item_1line.xml" value="0.10677083333333333" />
+        <entry key="..\:/Users/jawad/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.10677083333333333" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/bg_edt.xml" value="0.185" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_email.xml" value="0.185" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_galeria.xml" value="0.185" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_telefone.xml" value="0.168" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/drawable/ic_user.xml" value="0.185" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_ads_details.xml" value="0.33" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_categories.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_filtres.xml" value="0.25" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_form_ads.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_home.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_main.xml" value="0.18125" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_perfil.xml" value="0.18125" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_profile.xml" value="0.18125" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_regioes.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/activity_signup.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/category_item.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/doctorreg.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/estado_item.xml" value="0.19375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/fragment_home.xml" value="0.209375" />
+        <entry key="..\:/Users/jawad/Downloads/AnimalKingdomFinal/AnimalKingdomFinal/AnimalKingdom/app/src/main/res/layout/fragment_requests.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
