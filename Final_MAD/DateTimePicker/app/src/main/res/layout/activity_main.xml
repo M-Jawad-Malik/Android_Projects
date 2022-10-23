@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assignment#2\nDate Time Picker"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="#F4D03F"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+    <Button
+        android:id="@+id/DatePicker"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:text="Date Picker"
+        android:onClick="showDatePicker"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/TimePicker"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:text="Time Picker"
+        android:onClick="showTimePicker"
+        android:layout_toRightOf="@+id/DatePicker" />
+    <TextView
+        android:id="@+id/txtvwdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginLeft="80dp"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/DatePicker"
+        />
+    <TextView
+        android:id="@+id/txtvwtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="18sp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/DatePicker"
+        />
+</RelativeLayout>
+</RelativeLayout>

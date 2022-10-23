@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+   >
+    <TextView
+        android:id="@+id/chatfromtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/roundsendbtn_chatlog"
+        android:maxWidth="220dp"
+        android:textColor="@color/black"
+        android:padding="9dp"
+        android:text="Assalam u Alaikum Jc ni hao ma?"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagechatfromrow"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#DAF7A6"/>
+
+    <ImageView
+        android:id="@+id/chatfromimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/avatar"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagechatfromrow"
+        app:layout_constraintTop_toTopOf="parent"  />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagechatfromrow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/ic_male_avatar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

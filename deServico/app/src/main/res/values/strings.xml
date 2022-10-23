@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">deServico</string>
+    <string name="title_activity_driver_maps">deServico</string>
+    <string name="title_activity_sample_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="google_safetynet_api_key">AIzaSyAOC_XEGBSFjZ46u8CQ8NOHs_USL-vyem8</string>
+</resources>

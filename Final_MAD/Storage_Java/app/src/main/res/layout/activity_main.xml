@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External Storage"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        
+        />
+    <EditText
+        android:id="@+id/edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_heading"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Write something"/>
+    <Button
+        android:id="@+id/writebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="write"
+        android:layout_below="@id/edittxt"
+        android:onClick="writeData"
+        />
+    <Button
+        android:id="@+id/readbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:layout_below="@+id/edittxt"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:onClick="readData"
+        />
+<TextView
+    android:id="@+id/txtvw"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Data"
+    android:layout_below="@id/readbtn"
+    android:textSize="30sp"
+    android:layout_centerHorizontal="true"
+    />
+
+
+</RelativeLayout>

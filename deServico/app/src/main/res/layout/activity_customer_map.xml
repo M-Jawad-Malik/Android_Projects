@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+<FrameLayout                      
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerMapActivity">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/logout"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        map:fabCustomSize="40dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:src="@drawable/ic_cross"
+        android:backgroundTint="@color/white"/>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/Customerfab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            map:fabSize="normal"
+            android:src="@drawable/ic_msg"
+           />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/spinCardVw"
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                >
+
+                <Spinner
+
+                    android:layout_marginTop="12dp"
+                    android:id="@+id/Cusspinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/driverInfo"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:visibility="gone"
+                >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+    >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:id="@+id/DriverProfileImage"
+            android:src="@mipmap/serpro"
+            android:padding="5sp"
+            android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sertype"
+        android:text="Service Type"
+        android:layout_marginBottom="0dp"
+        />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="40sp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/DriverName"
+                        android:text="Name"
+                        android:layout_marginTop="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/Driverphone"
+                        android:text="Phone No"
+                        android:layout_marginTop="10dp"
+                        android:paddingBottom="10sp"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/ic_msgCusSer"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/ic_msgsercus"
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/request"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:text="Request deServico"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+</FrameLayout>
+</LinearLayout>

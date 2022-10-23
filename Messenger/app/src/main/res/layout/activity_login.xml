@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.LoginActivity"
+    android:background="@drawable/ic_bk1">
+    <TextView
+        android:id="@+id/txtSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginTop="110dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/lledittext"
+        />
+
+    <LinearLayout
+        android:id="@+id/lledittext"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtSignup">
+
+        <TextView
+            android:id="@+id/wrongemailPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lledittext"
+            android:layout_marginLeft="-60dp"
+            android:text="Wrong Email or Password"
+            android:textColor="@color/red"
+            android:textSize="14sp"
+            android:visibility="invisible"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"
+
+            />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_editboxes"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="14dp"
+            android:textSize="18sp"
+
+            />
+
+        <EditText
+            android:id="@+id/txtpassword"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/rounded_editboxes"
+            android:hint="Password"
+            android:inputType="text"
+            android:padding="14dp"
+            android:password="true"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/signinbtn"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_signupbtn"
+            android:backgroundTint="#72B1E5"
+            android:text="Sign In"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/alreadytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Not Registered? "
+        android:textColor="@color/black"
+        android:layout_alignBottom="@id/lledittext"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lledittext"/>
+    <TextView
+        android:id="@+id/SingUptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/alreadytxt"
+        android:text="Sign Up"
+        android:textColor="#72B1E5"
+        android:layout_alignBottom="@id/lledittext"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@id/alreadytxt"
+        app:layout_constraintStart_toEndOf="@id/alreadytxt"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

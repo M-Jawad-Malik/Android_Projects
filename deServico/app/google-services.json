@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "131764273862",
+    "firebase_url": "https://deservico-c1eab-default-rtdb.firebaseio.com",
+    "project_id": "deservico-c1eab",
+    "storage_bucket": "deservico-c1eab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131764273862:android:aa28e49846f80b52728dc7",
+        "android_client_info": {
+          "package_name": "com.example.deservico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131764273862-d84q5sa2pab64ofe3r04pti3d9rpv00e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deservico",
+            "certificate_hash": "d2672d9cba024f5d1f6e23264124e39578b9b3ef"
+          }
+        },
+        {
+          "client_id": "131764273862-jgs4vo1hucd5o590nlorr97b2qs2kn4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAclAUBiCAmhWJE7g77I-lSIa1eKWWBWos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "131764273862-jgs4vo1hucd5o590nlorr97b2qs2kn4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

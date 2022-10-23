@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#FFFD70"
+    >
+
+
+    <TextView
+        android:id="@+id/signuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginLeft="150dp"
+       />
+<LinearLayout
+    android:id="@+id/lledittxtbtn"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_below="@id/signuptxt"
+    >
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#282846"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone No"
+        android:textColorHint="#282846"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+    android:textColorHint="#282846"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#282846"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#282846"/>
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/haveaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account"
+        android:layout_below="@id/lledittxtbtn"
+        android:layout_marginLeft="100dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_toRightOf="@id/haveaccount"
+        android:layout_below="@id/lledittxtbtn"
+        android:layout_marginLeft="10dp"
+        android:textColor="#282846"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second_activity"
+    android:orientation="vertical"
+    android:gravity="center">
+<TextView
+    android:id="@+id/txtvw"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Message Here"
+    android:textSize="22dp"
+    />
+    <EditText
+        android:id="@+id/edttxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Write Text here"/>
+    <Button
+        android:id="@+id/firstactBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reply"
+        android:onClick="Send"
+        />
+    <EditText
+        android:id="@+id/web_edttxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="http://developer.android.com"/>
+    <Button
+        android:id="@+id/webBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open WebPage"
+        android:onClick="browse"
+        />
+</LinearLayout>
